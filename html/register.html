@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <header id="header">
+            <nav>
+                <img id="logo" src="../img/ProtoLogo.png" alt="Logo del luna">
+                <div class="dropdown">
+                   <div class="line"></div>
+                   <div class="line"></div>
+                   <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./albumPage.html">Albums</a></li>
+                    <li><a href="./merchPage.html">Merchandise</a></li>
+                    <li><a href="./testi.html">Testimonial</a></li>
+                    <li><a href="./register.html">Register</a></li>
+                </ul>
+            </nav>
+            
+    </header>
+    <div class="register-content"> 
+        <h3>Register</h3>
+        <div class="loginHere">
+            <div>Already Got An Account? <a href="./Login.html">Click Here</a></div>
+        </div>
+        <form action="" id="form" method="post">
+            <div class="input-border">
+                
+                <label for="">Name:</label><br>
+                <input type="text" name="RegisterName" id="RegisterName" class="input" placeholder="Input Name"><br><br>
+
+                <label for="">Email:</label><br>
+                <input type="email" name="RegisterEmail" id="RegisterEmail" class="input" placeholder="Input Email"><br><br>
+
+                <label for="">Gender:</label><br><br>
+                <input type="radio" name="gender" id="radioMale">
+                <label for="">Male</label><br>
+                <input type="radio" name="gender" id="radioFemale">
+                <label for="">Female</label><br><br>
+
+                <label for="">Password:</label><br>
+                <input type="password" name="pass" id="Password" class="input" placeholder="Input Password"><br><br>
+
+                <label for="">Confirm Password:</label><br>
+                <input type="password" name="confirmPass" id="ConfirmPassword" class="input" placeholder="Confirm Password"><br><br>
+                
+                <br><br>
+                <input type="checkbox" name="Check" id="check">
+                <label for="">I agree with all the terms and condition above</label><br>
+
+                <br><br>
+                <input type="submit" id="Register" class="submit-btn" onclick="validateRegister()">
+                <br><br>
+                <br><br>
+            </div>
+        </form>
+    </div>
+
+        <footer id="footer">
+            <div class="footerText">
+                Find Us On
+            </div>
+    
+            <div class="footer-icon">
+                <a href="https://www.instagram.com">
+                    <img src="../img/instagram.png" alt="">
+                </a>
+    
+                <a href="https://www.twitter.com">
+                    <img src="../img/facebook-logo.png" alt="">
+                </a>
+            </div>
+        </footer>
+    
+        <script src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img id="logo" src="../img/ProtoLogo.png" alt="Logo del luna">
+            <div class="dropdown">
+               <div class="line"></div>
+               <div class="line"></div>
+               <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./albumPage.html">Albums</a></li>
+                <li><a href="./merchPage.html">Merchandise</a></li>
+                <li><a href="./testi.html">Testimonial</a></li>
+                <li><a href="./register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="register-content"> 
+        <h3>Login</h3>
+        <div class="loginHere">
+            <div>New User? <a href="./register.html">Register</a></div>
+        </div>
+        <form action="" method="post">
+            <div class="input-border">
+                <label for="">Email:</label><br>
+                <input type="email" name="" id="LoginEmail" class="input" placeholder="Input Email"><br><br>
+
+
+                <label for="">Password:</label><br>
+                <input type="password" name="" id="LoginPassword" class="input" placeholder="Input Password"><br><br>
+                
+                <br><br>
+                <input type="submit" value="Login" class="submit-btn" onclick="validateLogin()">
+                <br><br>
+                <br><br>
+            </div>
+        </form>
+    </div>
+
+    <footer id="footer">
+        <div class="footerText">
+            Find Us On
+        </div>
+
+        <div class="footer-icon">
+            <a href="https://www.instagram.com">
+                <img src="../img/instagram.png" alt="">
+            </a>
+
+            <a href="https://www.twitter.com">
+                <img src="../img/facebook-logo.png" alt="">
+            </a>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
