@@ -1,0 +1,117 @@
+.album-container {
+    max-width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 3%;
+    margin-bottom: 5%;
+    padding-right: 2%;
+}
+
+#header-album {
+    box-shadow: 0 2px 20px #452f93;
+}
+
+.album-img img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.album-card {
+    box-shadow: 3px 3px 10px 5px lightgray;
+    border-radius: 3%;
+    padding: 20px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: #bfadff;
+}
+
+.album-content {
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 450;
+    font-size: medium;
+}
+
+.album-content p {
+    font-size: 80%;
+}
+
+.album-price {
+    font-weight: bold;
+}
+
+.artist-buttons {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-top: 1%;
+}
+
+.artist-buttons a {
+    height: 80%;
+    width: 100%;
+    border: 2px solid #6e4ee2;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-weight: bold;
+}
+
+
+a.active {
+    transition: .5s;
+    transform: scale(0.999);
+    background: #6e4ee2;
+    animation: animate .4s;
+    color: white;
+}
+
+#footer-albumPage {
+    box-shadow: 0 -2px 20px #452f93;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .album-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 5vh 3vh 20vh;
+    }
+
+    .artist-buttons {
+        padding-top: 10vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .album-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5vh 3vh 20vh;
+    }
+
+    .artist-buttons {
+        display: grid;
+        font-size: 120%;
+        gap: 3px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .artist-buttons a {
+        height: 3vh;
+        width: auto;
+        border: 2px solid #6e4ee2;
+        margin: 0 0 10px;
+        border-radius: 10px;
+        font-size: 80%;
+        text-align: center;
+        color: black;
+        padding-top: 0%;
+    }
+}
