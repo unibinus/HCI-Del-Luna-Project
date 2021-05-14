@@ -6,8 +6,8 @@ Project ini merupakan tugas dari perkuliahan untuk membuat sebuah website online
 <ul>
   <li>Home</li>
   <li>Albums</li>
-  <li>Merchansdise</li>
-  <li>Testimobials</li>
+  <li>Merchandise</li>
+  <li>Testimonials</li>
   <li>Register</li>
   <li>Login</li>
 </ul>
@@ -35,4 +35,4 @@ Project ini merupakan tugas dari perkuliahan untuk membuat sebuah website online
 <br>
 
 ### Disclaimer
-Aplikasi ini bertujuan sebagai tugas perkuliahan dan edukasi 
+Project website ini merupakan tugas perkuliahan dan website ini digunakan hanya untuk edukasi 
