@@ -89,7 +89,7 @@ $(".next").click(function () {
   }
 });
 
-//Back to top
+//Back To Top Button
 mybutton = document.getElementById("topBtn");
 
 function topFunction() {
