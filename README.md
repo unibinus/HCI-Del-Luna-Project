@@ -1,6 +1,6 @@
 # Del Luna Project
 
-Project ini merupakan tugas dari perkuliahan untuk membuat sebuah website online shop bernam Del Luna Store yang menjual Albums dan Merchandise K-Pop
+Project ini merupakan tugas dari perkuliahan untuk membuat sebuah design website online shop bernama Del Luna Store yang menjual Albums dan Merchandise K-Pop.
 
 ## Feature
 <ul>
