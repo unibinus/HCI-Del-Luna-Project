@@ -32,6 +32,25 @@ Project ini merupakan tugas dari perkuliahan untuk membuat sebuah design website
   </tr>
 </table>
 
+## App Design
+#### Home Page
+<img src="appImg\Home.png">
+
+### Album Page
+<img src="appImg\albumPage.png">
+
+### Merchandise Page
+<img src="appImg\merchPage.png">
+
+### Testimonial Page
+<img src="appImg\testi.png">
+
+### Register Page
+<img src="appImg\register.png">
+
+### Login Page
+<img src="appImg\login.png">
+
 <br>
 
 ### Disclaimer
