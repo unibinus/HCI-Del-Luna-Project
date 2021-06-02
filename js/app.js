@@ -47,6 +47,38 @@ $(document).ready(function(){
   })
 });
 
+function openCard(){ //to open
+  var popupView = document.getElementsByClassName('popup-view');
+  var popupBtn = document.querySelector('.see-more-btn');
+
+  var popup = function(popupClick){
+    popupView[popupClick].classList.add('active');
+  }
+
+  popupBtn.forEach((popupBtn, i)=> {
+    popupBtn.addEventListener("click", ()=>{
+      popup(i);
+    })
+  });
+
+}
+
+$('.album-card').click(function(){
+  alert( $('.album-card').index(this) );
+  let idx = $('.album-card').index(this);
+  let album = this.className;
+  console.log(album);
+  $('.album-card').eq(idx).html("<p> BRUHH HHH</p>");
+});
+
+function closeCard(){
+  var popupView = document.getElementsByClassName('popup-view');
+  popupView.classList.remove('active');
+}
+
+
+
+
 //TESTI.html
 var counter = 0;
 
@@ -88,6 +120,8 @@ $(".next").click(function () {
     $(".img2").css("display", "none");
   }
 });
+
+ 
 
 //Back To Top Button
 mybutton = document.getElementById("topBtn");

@@ -311,11 +311,23 @@ footer img {
         z-index: 3;
     }
 
+    .body-text{
+        font-size: medium;
+    }
+
+    .caption{
+        font-size: medium;
+    }
+
     .line {
         width: 5vw;
         height: 0.4vh;
         background-color: #fff;
         margin: 5px;
+    }
+
+    #topBtn{
+        visibility: hidden;
     }
 
     nav .nav-links {
