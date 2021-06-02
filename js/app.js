@@ -63,21 +63,20 @@ function openCard(){ //to open
 
 }
 
-$('.album-card').click(function(){
-  alert( $('.album-card').index(this) );
-  let idx = $('.album-card').index(this);
-  let album = this.className;
-  console.log(album);
-  $('.album-card').eq(idx).html("<p> BRUHH HHH</p>");
+$('.see-more-btn').click(function(){
+  let idx = $('.see-more-btn').index(this);
+  $('.see-more-btn').eq(idx).closest(".cont-card").children('.popup-view').addClass("active");
+});
+
+$('.close-btn').click(function(){
+  let idx = $('.close-btn').index(this);
+  $('.see-more-btn').eq(idx).closest(".cont-card").children('.popup-view').removeClass("active");
 });
 
 function closeCard(){
   var popupView = document.getElementsByClassName('popup-view');
   popupView.classList.remove('active');
 }
-
-
-
 
 //TESTI.html
 var counter = 0;
