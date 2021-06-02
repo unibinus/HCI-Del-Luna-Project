@@ -1,13 +1,16 @@
 # Del Luna Project
 
-Project ini merupakan tugas dari perkuliahan untuk membuat sebuah website online shop bernam Del Luna Store yang menjual Albums dan Merchandise K-Pop
+Project ini merupakan tugas dari perkuliahan untuk membuat sebuah design website online shop bernama Del Luna Store yang menjual Albums dan Merchandise K-Pop.
+
+Berikut merupakan link untuk menguji front-end dari project ini
+https://del-luna-store-unibinus.netlify.app/
 
 ## Feature
 <ul>
   <li>Home</li>
   <li>Albums</li>
-  <li>Merchansdise</li>
-  <li>Testimobials</li>
+  <li>Merchandise</li>
+  <li>Testimonials</li>
   <li>Register</li>
   <li>Login</li>
 </ul>
@@ -32,7 +35,26 @@ Project ini merupakan tugas dari perkuliahan untuk membuat sebuah website online
   </tr>
 </table>
 
+## App Design
+#### Home Page
+<img src="appImg\Home.png">
+
+### Album Page
+<img src="appImg\albumPage.png">
+
+### Merchandise Page
+<img src="appImg\merchPage.png">
+
+### Testimonial Page
+<img src="appImg\testi.png">
+
+### Register Page
+<img src="appImg\register.png">
+
+### Login Page
+<img src="appImg\login.png">
+
 <br>
 
 ### Disclaimer
-Aplikasi ini bertujuan sebagai tugas perkuliahan dan edukasi 
+Project website ini merupakan tugas perkuliahan dan website ini digunakan hanya untuk edukasi 

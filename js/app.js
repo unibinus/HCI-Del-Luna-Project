@@ -47,6 +47,37 @@ $(document).ready(function(){
   })
 });
 
+function openCard(){ //to open
+  var popupView = document.getElementsByClassName('popup-view');
+  var popupBtn = document.querySelector('.see-more-btn');
+
+  var popup = function(popupClick){
+    popupView[popupClick].classList.add('active');
+  }
+
+  popupBtn.forEach((popupBtn, i)=> {
+    popupBtn.addEventListener("click", ()=>{
+      popup(i);
+    })
+  });
+
+}
+
+$('.see-more-btn').click(function(){
+  let idx = $('.see-more-btn').index(this);
+  $('.see-more-btn').eq(idx).closest(".cont-card").children('.popup-view').addClass("active");
+});
+
+$('.close-btn').click(function(){
+  let idx = $('.close-btn').index(this);
+  $('.see-more-btn').eq(idx).closest(".cont-card").children('.popup-view').removeClass("active");
+});
+
+function closeCard(){
+  var popupView = document.getElementsByClassName('popup-view');
+  popupView.classList.remove('active');
+}
+
 //TESTI.html
 var counter = 0;
 
@@ -89,7 +120,9 @@ $(".next").click(function () {
   }
 });
 
-//Back to top
+ 
+
+//Back To Top Button
 mybutton = document.getElementById("topBtn");
 
 function topFunction() {

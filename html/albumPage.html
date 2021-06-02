@@ -19,7 +19,7 @@
                <div class="line"></div>
             </div>
             <ul class="nav-links">
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="./albumPage.html">Albums</a></li>
                 <li><a href="./merchPage.html">Merchandise</a></li>
                 <li><a href="./testi.html">Testimonial</a></li>
@@ -33,25 +33,67 @@
         <a data-target="#" class="btn3">GFriend</a>
     </div>
     <div class="album-container" id="BTS">
-        <div class="album-card" >
-            <div class="album-img">
-                <img src="../Assets/persona.jpg" alt="">
+        <div class="cont-card">
+            <div class="album-card" >
+                <div class="album-img">
+                    <img src="../Assets/persona.jpg" alt="">
+                </div>
+                <div class="album-content" >
+                    <p>Map of The Soul: Persona</p>
+                    <p class="album-price">Rp. 465.000,-</p>
+                </div>
+                <div class="see-more">
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
             </div>
-            <div class="album-content" >
-                <p>Map of The Soul: Persona</p>
-                <p class="album-price">Rp. 465.000,-</p>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <button type="button" class="close-btn">Close</button>
+                    <div class="product-img">
+                        <img src="../Assets/persona.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Map of The Soul: Persona</p>
+                        <p class="album-price">Rp. 465.000,-</p>
+                        <p>BTS signals the beginning of a brand new story with the release of their newest EP MAP OF THE SOUL : PERSONA on April 12.
+                            As global superstars who play stadiums and are loved by countless fans across the world, BTS now looks to shape the future reflecting on and using the power they have gained while embracing all its shadows.</p>
+                        <a href="#" class="order-now">Order Now</a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="album-card" >
-            <div class="album-img" >
-                <img src="../Assets/Love youself answer.png" alt="">
+        <div class="cont-card">
+            <div class="album-card" >
+                <div class="album-img" >
+                    <img src="../Assets/Love youself answer.png" alt="">
+                </div>
+                <div class="album-content">
+                    <p>Love Yourself: Answer</p>
+                    <p class="album-price">Rp. 375.000,-</p>
+                </div>
+                <div class="see-more">
+                    <button type="button" class="see-more-btn">See More</button>
+                </div>
             </div>
-            <div class="album-content">
-                <p>Love Yourself: Answer</p>
-                <p class="album-price">Rp. 375.000,-</p>
+            <div class="popup-view">
+                <div class="popup-card">
+                    <button type="button" class="close-btn">Close</button>
+                    <div class="product-img">
+                        <img src="../Assets/Love youself answer.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Love Yourself: Answer</p>
+                        <p class="album-price">Rp. 375.000,-</p>
+                        <p>BTS signals the beginning of a brand new story with the release of their newest Love Yourself : Answer on April 12.
+                            As global superstars who play stadiums and are loved by countless fans across the world, BTS now looks to shape the future reflecting on and using the power they have gained while embracing all its shadows.</p>
+                        <a href="#" class="order-now">Order Now</a>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- belom buat sisanya modal -->
 
         <div class="album-card" >
             <div class="album-img">
@@ -60,6 +102,9 @@
             <div class="album-content">
                 <p>Love Yourself: Tear</p>
                 <p class="album-price">Rp. 465.000,-</p>
+            </div>
+            <div class="see-more">
+                <button type="button" class="see-more-btn" onclick="openCard()">See More</button>
             </div>
         </div>
 
@@ -70,6 +115,9 @@
             <div class="album-content">
                 <p>Map of The Soul: 7</p>
                 <p class="album-price">Rp. 289.000,-</p>
+            </div>
+            <div class="see-more">
+                <button type="button" class="see-more-btn" onclick="openCard()">See More</button>
             </div>
         </div>
 
